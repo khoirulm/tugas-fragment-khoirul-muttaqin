@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/tvFirstFragment"
         android:textSize="26pt"
-        android:textColor="@color/black"
+        android:textColor="@color/colorPrimary"
         android:text="@string/disini_tampil"
         />
 
