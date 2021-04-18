@@ -1,5 +1,6 @@
 package com.kmproject.fragmentappkhoirulm;
 
+import android.annotation.SuppressLint;
 import android.app.Fragment;
 import android.view.View;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ import android.view.ViewGroup;
 
 public class SecondFragment extends Fragment {
 
+    @SuppressLint("ResourceType")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
